@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use or adapt this example app, please cite it using these metadata."
+type: software
+title: "Theater Rehearsal Call Board dashboard built with Pixeltable"
+abstract: "Stage-management dashboard for a Twelfth Night rehearsal period: call hours, punctuality, absences and department notes from joins and JSON list functions, plus OpenTelemetry traces of every Pixeltable operation stored back in a table."
+authors:
+  - given-names: "Pierre"
+    family-names: "Brunelle"
+repository-code: "https://github.com/pierrebrunelle/pixeltable-rehearsal-call-board"
+url: "https://pierrebrunelle.github.io/awesome-pixeltable-apps/"
+license: Apache-2.0
+version: "0.1.0"
+date-released: 2026-10-24
+keywords:
+  - "pixeltable"
+  - "pixeltable-example"
+  - "python"
+  - "observability"
+  - "analytics"
+  - "theater"
+  - "stage-management"
+  - "rehearsal-schedule"
+  - "tracing"
+  - "multimodal"
