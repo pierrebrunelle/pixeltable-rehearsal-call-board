@@ -4,7 +4,7 @@
                                    # OpenTelemetry bridge on, append every span to
                                    # output/spans.jsonl, then load them into theater/spans
     python dashboard.py build      # write output/dashboard.md and output/dashboard.html
-    THEATER_CATALOG=pxt://<org>:<db>/theater python dashboard.py build   # Pixeltable Cloud
+    THEATER_CATALOG=pxt://<org>:<db> python dashboard.py build           # Pixeltable Cloud
 
 Tracing needs no collector: `span_dump=` makes the bridge write one JSON span per line.
 Set OTEL_EXPORTER_OTLP_ENDPOINT (and OTEL_EXPORTER_OTLP_HEADERS) to also ship the spans to

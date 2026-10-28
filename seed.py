@@ -1,7 +1,7 @@
 """Seed the call board: 10 company members, 8 scenes, 9 rehearsal calls and their check-ins.
 
     python seed.py                              # local catalog 'theater'
-    python seed.py pxt://<org>:<db>/theater     # a Pixeltable Cloud database
+    python seed.py pxt://<org>:<db>             # a Pixeltable Cloud database
 
 One call (R-09) has a typo in its end time on purpose: its `hours` cell fails, and
 `pxt errors theater/rehearsals --col hours` shows the row and the exception.
